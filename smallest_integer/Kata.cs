@@ -1,0 +1,14 @@
+public class Kata 
+{
+    public static int FindSmallestInt(int[] args) 
+    {
+        int smallest = args[0];
+        for (int i = 1; i < args.Length; i++)
+        {
+            if (args[i] < smallest) smallest = args[i];
+            
+        }
+
+        return smallest;
+    }
+}

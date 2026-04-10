@@ -1,0 +1,6 @@
+@estudo.net_HostAddress = http://localhost:5241
+
+GET {{estudo.net_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
